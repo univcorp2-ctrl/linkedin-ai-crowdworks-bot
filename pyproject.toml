@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linkedin-ai-crowdworks-bot"
+version = "0.1.0"
+description = "Find one easy AI-related LinkedIn Jobs result and draft a CrowdWorks posting."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "GitHub-GPT Syncer" }]
+dependencies = [
+  "requests>=2.31.0",
+  "python-dotenv>=1.0.0"
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0.0",
+  "ruff>=0.6.0"
+]
+
+[project.scripts]
+ai-job-hunter = "ai_job_hunter.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
