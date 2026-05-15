@@ -1,0 +1,62 @@
+{
+  "identity": {
+    "display_name": "山田太郎",
+    "legal_name": "山田太郎",
+    "location": "日本 / 東京都",
+    "timezone": "Asia/Tokyo"
+  },
+  "contact": {
+    "email": "taro@example.com",
+    "phone": "",
+    "preferred_contact_method": "CrowdWorks message"
+  },
+  "availability": {
+    "hours_per_week": 10,
+    "start_date": "2026-05-20",
+    "working_hours": "平日20:00-23:00、土日午前",
+    "response_time": "24時間以内"
+  },
+  "rates": {
+    "hourly_jpy": 3000,
+    "fixed_min_jpy": 5000,
+    "notes": "初回テストは内容により相談可能です。"
+  },
+  "skills": {
+    "ai_tools": ["ChatGPT", "Claude", "Gemini"],
+    "technical": ["prompt evaluation", "Google Sheets", "basic Python"],
+    "research": ["web research", "summarization", "requirements整理"],
+    "writing": ["Japanese business writing", "manual writing"]
+  },
+  "languages": [
+    {"name": "Japanese", "level": "Native"},
+    {"name": "English", "level": "Business reading"}
+  ],
+  "experience": {
+    "summary": "生成AIを使ったWebリサーチ、要約、プロンプト評価、作業手順化を得意としています。求人情報や業務要件を読み取り、外注しやすいタスクへ分解できます。",
+    "projects": [
+      {
+        "title": "AI記事要約とチェックリスト作成",
+        "description": "複数の記事を調査し、要点・必要スキル・注意点をMarkdownで整理しました。"
+      },
+      {
+        "title": "プロンプト評価表の作成",
+        "description": "AI回答の正確性、自然さ、安全性を評価するスプレッドシートを作成しました。"
+      }
+    ]
+  },
+  "portfolio": {
+    "urls": []
+  },
+  "application_preferences": {
+    "target_roles": ["AI評価", "プロンプト評価", "AI関連リサーチ", "データ整理"],
+    "avoid_roles": ["電話営業", "顔出し必須", "違法または規約違反のスクレイピング"],
+    "tone": "丁寧、簡潔、実務寄り",
+    "ng_conditions": ["本人確認前の個人情報大量提出", "報酬未記載", "規約違反の自動化", "成果物の権利関係が不明"]
+  },
+  "compliance": {
+    "human_review_before_submit": true,
+    "no_false_claims": true,
+    "no_terms_violating_automation": true,
+    "no_personal_data_scraping": true
+  }
+}
