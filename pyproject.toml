@@ -23,6 +23,7 @@ dev = [
 
 [project.scripts]
 ai-job-hunter = "ai_job_hunter.cli:main"
+ai-application-packet = "ai_job_hunter.application_cli:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
